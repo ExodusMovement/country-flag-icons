@@ -10,7 +10,7 @@ alphaMap.forEach((map) => {
   for (let i = 0; i < filesArray.length; i++) {
     const file = filesArray[i];
     if (file.replace(".svg", "") === map[0]) {
-      fs.renameSync(path + file, path + map[1] + ".svg");
+      fs.renameSync(path + file, './3x2_alpha_3/' + map[1] + ".svg");
       break;
     }
   }
