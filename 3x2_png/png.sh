@@ -1,5 +1,5 @@
 #!/bin/bash
-dir="./3x2_alpha_3"
+dir="./ls"
 file="*.svg"
 for file in `cd ${dir};ls -1 ${file}` ;do
    png=$(echo "$file" | sed "s/svg/png/")
